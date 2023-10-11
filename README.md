@@ -22,4 +22,4 @@
 
 # Extra Credit
 
-When the executable is linked statically, Valgrind might still detect some of those bugs, but in addition, it may also report approximately 302 additional errors i.e in this case. This is because static linking creates self-contained executables that typically do not rely on external libraries or dependencies, which can impact Valgrind's ability to effectively detect potential errors.
+When the executable is linked statically, Valgrind might still detect some of those bugs, but in addition, it also reported approximately 302 additional errors. This is because static linking creates self-contained executables that typically do not rely on external libraries or dependencies, which can impact Valgrind's ability to effectively detect potential errors.

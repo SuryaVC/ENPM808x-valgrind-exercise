@@ -1,0 +1,5 @@
+# Ignore the build directory
+/build/
+
+# Ignore the compile_commands.json file
+compile_commands.json

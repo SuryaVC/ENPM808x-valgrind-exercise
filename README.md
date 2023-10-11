@@ -18,6 +18,8 @@
   cmake --build build/ --target clean
 # Clean and start over:
   rm -rf build/
+# Command to check Valgrind and save output text file
+  valgrind --leak-check=yes ./build/app/shell-app > valgrind_output_no_errors.txt 2>&1
 ```
 
 # Extra Credit
